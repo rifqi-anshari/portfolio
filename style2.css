@@ -1,0 +1,190 @@
+/* -----------------NEW-------------- */
+
+/* Background Belakang*/
+.bg-body{
+    background-color: #E6E6FA;
+}
+
+/* Background Warna Biru */
+.bg-biru{
+    background-color: #0530ad;
+}
+
+.padding-global{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.border-card{
+    border-radius: 15px;
+}
+
+/* Warna Garis Tepi Card / Border */
+.border-content{
+    border: none !important;
+    border-radius: 15px;
+}
+
+.border-portfolio{
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Background Transparant */
+.bg-none{
+    background-color: initial;
+    background-image: none;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-position: initial;
+}
+
+/* Card About */
+.card-about{
+    background-color: #0071c5;
+    border-radius: 15px;
+    border: none !important;
+}
+
+.card-biografi{
+    background-color: #81D8D0;
+    border-radius: 15px;
+    border: none !important;
+}
+
+/* Efek Shadow Pada Card */
+.card-shadow{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/* Badge Warna Ungu */
+.badge-biru{
+    background-color: #0530ad;
+}
+
+/* Button Ungu */
+.btn-biru{
+    background-color: #0530ad;
+}
+
+.margin-bot-10px{
+    margin-bottom: 10px;
+    margin-top: -7px;
+}
+
+/* Font Poppins */
+.font-poppins{
+    font-family: poppins;
+}
+
+.icon-panah{
+    color:#0530ad;
+}
+
+.margin-tengah{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.margin-top-bot{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.margin-corausel{
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.card-skill{
+    background-color: #fff;
+    border-radius: 15px;
+    border: none !important;
+}
+
+/* ------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}.circle {
+    padding: 16px 20px;
+    border-radius: 30%;
+    background-color: #0530ad;
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
+}
+
+.connecting-lines.row .col-2 {
+    align-self: stretch;
+}
+.connecting-lines.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #0530ad;
+    z-index: 1;
+}
+.connecting-lines.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+.connecting-lines.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+}
+
+.connecting-lines.row .col-2.full-full::after {
+    height: 100%;
+    left: calc(50% - 0px);
+}
+
+.connecting-lines.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+}
+
+
+.timeline div {
+    padding: 0;
+    height: 40px;
+}
+.timeline hr {
+    border-top: 3px solid #0530ad;
+    margin: 0;
+    top: 17px;
+    position: relative;
+}
+.timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+}
+.timeline .corner {
+    border: 3px solid #0530ad;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+.timeline .top-right {
+    left: 50%;
+    top: -50%;
+}
+.timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+}
+.timeline .top-left {
+    left: -50%;
+    top: -50%;
+}
+.timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+}
