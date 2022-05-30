@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portofolio</title>
 
     <!-- Bootsrap 4 CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -15,27 +15,17 @@
     <!-- Font Poppins -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!-- Font Awesome 4.7 -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Icon Google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 
 </head>
 <body class="bg-body">
-    <div class="padding-global font-poppins">
+    <div class="padding-global">
 
         <div class="container-fluid margin-top-bot">
-<!-- 
-            <div class="border-portfolio">
-                <div class="row justify-content-center">
-                    <div class="col-6 primary border-card">
-                        <h1 class="text-center text-white"><i class="fas fa-passport"></i> <b>My Portfolio</b></h2>
-                    </div>
-                </div>
-            </div> -->
 
             <div class="card card-shadow border-content">
                 <div class="card-body">
@@ -46,18 +36,19 @@
                             <div class="container card card-about card-shadow text-white"><br>
                                 <h2 class="text-center"><b>Tentang Saya</b></h2>
                                 <div class="card-body">
-                                    <img class="rounded-circle mx-auto d-block" src="img/profile.jpg" alt="Profile" width="170px"><br>
+                                    <img class="rounded-circle mx-auto d-block" src="img/profile.jpg" alt="Profile" width="140px"><br>
                                     <p class="text-justify">Hai, nama saya Rifqi Anshari, Saya lulusan <b>Sistem Informasi</b> Universitas Islam Kalimantan Muhammad Arsyad Al Banjari tahun 2021. Saya selalu ingin mempelajari hal-hal baru yang menarik buat saya.
                                     <br><br>
-                                    Bagi saya, berkomunikasi melalui bahasa visual lebih menyenangkan ketimbang secara lisan. Di portfolio ini, Anda dapat melihat beberapa karya yang pernah saya hasilkan.
+                                    Bagi saya, berkomunikasi melalui bahasa visual lebih menyenangkan ketimbang secara lisan. Di Portofolio ini, Anda dapat melihat beberapa karya yang pernah saya hasilkan.
                                     </p>
                                 </div>
                             </div><br>
                         </div>
-                
+
+                        <!-- Biografi & Skill-->
                         <div class="col-md-8">
-                            <h2><span class="badge badge-pill badge-biru text-white">Biografi</span></h2>
-                            <table>
+                            <h2 class="text-center"><span class="badge badge-pill badge-ungu text-white">Biografi</span></h2>
+                            <table  >
                                 <tbody>
                                     <tr>
                                         <td width="120px">Nama</td>
@@ -82,179 +73,52 @@
                                     </tr>
                                 </tbody>
                             </table><hr>
+                            
+                            <!-- Skill -->
                             <div class="row">
                                 <div class="col">
-                                    <h2><span class="badge badge-pill badge-biru text-white">Skill</span></h2>
-                                    <div id="skill" class="carousel slide" data-ride="carousel">
-
-                                        <!-- Indicators -->
-                                        <!-- <ul class="carousel-indicators">
-                                            <li data-target="#demo" data-slide-to="0" class="active"></li>
-                                            <li data-target="#demo" data-slide-to="1"></li>
-                                            <li data-target="#demo" data-slide-to="2"></li>
-                                        </ul> -->
-                                    
-                                        <!-- The slideshow -->
-                                        <div class="carousel-inner">
-
-                                            <!-- Skill Bahasa Pemrograman -->
-                                            <div class="carousel-item active">
-                                                <div class="margin-tengah">
-                                                    <div class="text-center">
-                                                        <button class="btn btn-sm btn-primary badge-pill text-white" >Bahasa Pemrograman</button>
-                                                    </div><br>
-                                                    
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>HTML</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:75%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>Bootstrap 4</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:60%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>Bootstrap 3</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:40%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>CSS</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:50%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>PHP</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:10%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>Javascipt</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:1%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div><br>
-                                                </div>
-                                            </div>
-
+                                    <h2 class="text-center"><span class="badge badge-pill badge-ungu text-white">Skill</span></h2>
+                                    <div class="row text-center">
+                                        <div class="col">
                                             
-                                            <!-- Skill Editing -->
-                                            <div class="carousel-item">
-                                                <div class="margin-tengah">
-                                                    <div class="text-center">
-                                                        <button class="btn btn-sm btn-primary badge-pill text-white" >Editing</button>
-                                                    </div><br>
-                                                    
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>Adobe Photoshop</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:60%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>Adobe Premiere</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:40%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>Adobe After Effect</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:10%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>Corel Draw</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:40%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>Movavi</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:80%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>Spark AR</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:30%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <br>
+                                            <!-- <div class="row">
+                                                <div class="col-md">
+                                                    <img src="img/skill/photoshop.png" width="30%" alt="Adobe Photoshop">
+                                                    <img src="img/skill/premiere.png" width="30%" alt="Adobe Premiere">
+                                                    <img src="img/skill/movavi.png" width="30%" alt="Movavi Video">
+                                                </div>
+                                                <div class="col-md">
+                                                    <img src="img/skill/corel-draw.png" width="30%" alt="Corel Draw">
+                                                    <img src="img/skill/spark-ar.png" width="30%" alt="Spark Ar">
+                                                    <img src="img/skill/bootstrap.png" width="30%" alt="Bootstrap">
                                                 </div>
                                             </div>
+                                            <div class="row">
+                                                <div class="col-md">
+                                                    <img src="img/skill/html.png" width="30%" alt="HTML">
+                                                    <img src="img/skill/css.png" width="30%" alt="CSS">
+                                                    <img src="img/skill/php.png" width="30%" alt="PHP">
+                                                </div>
+                                                <div class="col-md">
+                                                    <img src="img/skill/power-point.png" width="30%" alt="Microsoft Power Point">
+                                                    <img src="img/skill/word.png" width="30%" alt="Microsoft Word">
+                                                    <img src="img/skill/excel.png" width="30%" alt="Microsoft Excel">
+                                                </div>
+                                            </div> -->
+                                                    <img src="img/skill/photoshop.png" width="15%" alt="Adobe Photoshop">
+                                                    <img src="img/skill/premiere.png" width="15%" alt="Adobe Premiere">
+                                                    <img src="img/skill/movavi.png" width="15%" alt="Movavi Video">
+                                                    <img src="img/skill/corel-draw.png" width="15%" alt="Corel Draw">
+                                                    <img src="img/skill/spark-ar.png" width="15%" alt="Spark Ar">
+                                                    <img src="img/skill/bootstrap.png" width="15%" alt="Bootstrap">
+                                                    <img src="img/skill/html.png" width="15%" alt="HTML">
+                                                    <img src="img/skill/css.png" width="15%" alt="CSS">
+                                                    <img src="img/skill/php.png" width="15%" alt="PHP">
+                                                    <img src="img/skill/power-point.png" width="15%" alt="Microsoft Power Point">
+                                                    <img src="img/skill/word.png" width="15%" alt="Microsoft Word">
+                                                    <img src="img/skill/excel.png" width="15%" alt="Microsoft Excel">
 
-                                            <!-- Skill Microsoft -->
-                                            <div class="carousel-item">
-                                                <div class="margin-tengah">
-                                                    <div class="text-center">
-                                                        <button class="btn btn-sm btn-primary badge-pill text-white" >Microsoft</button>
-                                                    </div><br>
-                                                    
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>Microsoft Power Point</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:80%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>Microsoft Word</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:60%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <h6>Microsoft Excel</h6>
-                                                            <div class="progress margin-bot-10px">
-                                                                <div class="progress-bar primary" style="width:40%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div><br>
-                                                </div>
-                                            </div>
                                         </div>
-
-
-                                    
-                                        <!-- Left and right controls -->
-                                        <a class="carousel-control-prev margin-corausel" href="#skill" role="button" data-slide="prev"> <i class="fa fa-angle-left fa-3x icon-panah"></i></a>
-                                        <a class="carousel-control-next margin-corausel" href="#skill" role="button" data-slide="next"> <i class="fa fa-angle-right fa-3x icon-panah"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -262,9 +126,10 @@
 
                     </div><hr>
 
+                    <!-- Riwayat Pendidikan -->
                     <div class="row">
                         <div class="col text-center">
-                            <h2><span class="badge badge-pill badge-biru text-white">Pendidikan Formal</span></h2>
+                            <h2><span class="badge badge-pill badge-ungu text-white">Riwayat Pendidikan</span></h2>
                         </div>
                     </div><br>
 
@@ -273,7 +138,7 @@
                             <img src="img/education.png" alt="Education">
                         </div> -->
                         <div class="col-md-6 text-center mb-3">
-                            <img src="img/education.png" alt="Education" width="100%">
+                            <img src="img/education.png" alt="Education" width="80%">
                         </div>
                         <div class="col-md-6 mb-3">
                             <div class="row mb-3">
@@ -281,246 +146,418 @@
                                     <!-- First Content Section-->
                                     <div class="row align-items-center connecting-lines d-flex">
                                         <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
-                                            <div class="circle font-weight-bold"><i class="fa fa-check"></i></div>
+                                            <div class="circle font-weight-bold"><i class="fa fa-circle"></i></div>
                                         </div>
-                                        <div class="col-6">
-                                            <h4>SDN Sungai Paring 1 <span class="badge badge-biru text-white">2005-2007</span></h4>
-                                        </div>
-                                    </div>
-                                    <!-- Path Line -->
-                                    <div class="row timeline">
-                                        <div class="col-2">
-                                            <div class="corner top-right"></div>
-                                        </div>
-                                        <div class="col-8">
-                                            <hr/>
-                                        </div>
-                                        <div class="col-2">
-                                            <div class="corner left-bottom"></div>
-                                        </div>
-                                    </div>
-                                    <!-- Second Content Section-->
-                                    <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                                        <div class="col-6 text-right">
-                                            <h4>SDN Loktabat 4 Banjarbaru <span class="badge badge-biru text-white">2007-2011</span></h4>
-                                        </div>
-                                        <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                                            <div class="circle font-weight-bold"><i class="fa fa-check"></i></div>
+                                        <div class="col">
+                                            <h4>Universitas Islam Kalimantan Muhammad Arsyad Al Banjari<br><span class="badge badge-ungu text-white">2017-2021</span></h4>
                                         </div>
                                     </div>
                                     <!-- Path Line -->
-                                    <div class="row timeline">
-                                        <div class="col-2">
-                                            <div class="corner right-bottom"></div>
-                                        </div>
-                                        <div class="col-8">
-                                            <hr/>
-                                        </div>
-                                        <div class="col-2">
-                                            <div class="corner top-left"></div>
-                                        </div>
+                                    <div class="row">
+                                        <hr><hr><hr>
                                     </div>
-                                    <!-- Third Content Section -->
-                                    <div class="row align-items-center connecting-lines d-flex">
-                                        <div class="col-2 text-center full-full d-inline-flex justify-content-center align-items-center">
-                                            <div class="circle font-weight-bold"><i class="fa fa-check"></i></div>
-                                        </div>
-                                        <div class="col-6">
-                                            <h4>SMPN 5 Banjarbaru <span class="badge badge-biru text-white">2011-2014</span></h4>
-                                        </div>
-                                    </div>
-                                    <!-- Path Line -->
-                                    <div class="row timeline">
-                                        <div class="col-2">
-                                            <div class="corner top-right"></div>
-                                        </div>
-                                        <div class="col-8">
-                                            <hr/>
-                                        </div>
-                                        <div class="col-2">
-                                            <div class="corner left-bottom"></div>
-                                        </div>
-                                    </div>
-                                    <!-- Second Content Section-->
-                                    <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                                        <div class="col-6 text-right">
-                                            <h4>SMAN 2 Banjarbaru <span class="badge badge-biru text-white">2014-2017</span></h4>
-                                        </div>
-                                        <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                                            <div class="circle font-weight-bold"><i class="fa fa-check"></i></div>
-                                        </div>
-                                    </div>
-                                    <!-- Path Line -->
-                                    <div class="row timeline">
-                                        <div class="col-2">
-                                            <div class="corner right-bottom"></div>
-                                        </div>
-                                        <div class="col-8">
-                                            <hr/>
-                                        </div>
-                                        <div class="col-2">
-                                            <div class="corner top-left"></div>
-                                        </div>
-                                    </div>
-                                    <!-- Third Content Section -->
                                     <div class="row align-items-center connecting-lines d-flex">
                                         <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-                                            <div class="circle font-weight-bold"><i class="fa fa-check"></i></div>
+                                            <div class="circle font-weight-bold"><i class="fa fa-circle"></i></div>
                                         </div>
-                                        <div class="col-6">
-                                            <h4>Universitas Islam Kalimantan Muhammad Arsyad Al Banjari <span class="badge badge-biru text-white">2017-2021</span></h4>
+                                        <div class="col">
+                                            <h4>SMA Negeri 2 Banjarbaru<br><span class="badge badge-ungu text-white">2014-2017</span></h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div><hr>
-                </div>
 
+                    <!-- Portofolio -->
                     <div class="row">
                         <div class="col text-center">
-                            <h2><span class="badge badge-pill badge-biru text-white">Karya-Karya</span></h2>
+                            <h2><span class="badge badge-pill badge-ungu text-white">Portofolio</span></h2>
                         </div>
                     </div><br>
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md">
                                 <div class="row">
-                                    <div class="col mb-4">
+                                    <!-- thumb modal-01 -->
+                                    <div class="col-md mb-4 d-flex align-items-stretch">
                                         <div class="card card-skill card-shadow">
-                                            <img class="card-img-top" src="img/img-avatar.png" alt="Card image" style="width:100%">
-                                            <div class="card-body">
-                                                <!-- <img class="rounded mx-auto d-block" src="https://cootix.github.io/store/custom/images/cootix_150x150.png" alt="Profile" width="170px"><br> -->
-                                                <p class="text-justify">Some example text some example text.
+                                            <img class="card-img-top2" src="img/karya/modal-img-01/sparkar.png" alt="Card image" style="width:100%">
+                                            <div class="card-body d-flex flex-column">
+                                                <p>Efek & Filter Instagram menggunakan Spark AR Studio
                                                 </p>
-                                                <a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-primary badge-pill float-right"><i class="fa fa-list-alt"></i> Detail</a>
+                                                <a href="#" data-toggle="modal" data-target="#modal-01" class="btn btn-sm btn-ungu badge-pill float-right align-self-end" style="margin-top: auto;">Detail <i class="fa fa-chevron-circle-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- The Modal 1-->
-                                    <div class="modal" id="modal1">
-                                        <div class="modal-dialog modal-dialog-centered">
+                                    <!--  modal-01 -->
+                                    <div class="modal fade" id="modal-01">
+                                        <div class="modal-dialog modal-dialog-scrollable modal-full">
                                             <div class="modal-content">
-                                        
+
                                                 <!-- Modal Header -->
                                                 <div class="modal-header">
-                                                <h4 class="modal-title">Detail</h4>
-                                                <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
-                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn" data-dismiss-modal="modal2"><i class="fa fa-chevron-circle-left text-black-50 float-right fa-2x"></i></button>
+                                                <!-- <h4 class="modal-title"></h4> -->
                                                 </div>
                                         
                                                 <!-- Modal body -->
                                                 <div class="modal-body">
-                                                Modal body..
+                                                    <div class="row">
+                                                        <div class="col-md-6 mb-3">
+                                                            <img class="rounded-lvl" src="img/karya/modal-img-01/sparkar.png" style="width:100%">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cumque impedit ea voluptas inventore unde vitae voluptatibus. Consequatur eius totam sint! Cumque similique harum asperiores illo quaerat delectus voluptas deserunt.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- thumb modal-02 -->
+                                    <div class="col-md mb-4 d-flex align-items-stretch">
+                                        <div class="card card-skill card-shadow">
+                                            <img class="card-img-top2" src="img/karya/modal-img-01/sparkar.png" alt="Card image" style="width:100%">
+                                            <div class="card-body d-flex flex-column">
+                                                <p>Web Store Cootix untuk menjual Efek Filter Instagram
+                                                </p>
+                                                <a href="#" data-toggle="modal" data-target="#modal-02" class="btn btn-sm btn-ungu badge-pill float-right align-self-end" style="margin-top: auto;">Detail <i class="fa fa-chevron-circle-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--  modal-02 -->
+                                    <div class="modal fade" id="modal-02">
+                                        <div class="modal-dialog modal-dialog-scrollable modal-full">
+                                            <div class="modal-content">
+
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                <button type="button" class="btn" data-dismiss-modal="modal2"><i class="fa fa-chevron-circle-left text-black-50 float-right fa-2x"></i></button>
+                                                <!-- <h4 class="modal-title"></h4> -->
                                                 </div>
                                         
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        <div class="col-md-6 mb-3">
+                                                            <img class="rounded-lvl" src="img/karya/modal-img-01/sparkar.png" style="width:100%">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cumque impedit ea voluptas inventore unde vitae voluptatibus. Consequatur eius totam sint! Cumque similique harum asperiores illo quaerat delectus voluptas deserunt.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        
                                     </div>
-                                    <div class="col mb-4">
+                                    <!-- thumb modal-03 -->
+                                    <div class="col-md mb-4 d-flex align-items-stretch">
                                         <div class="card card-skill card-shadow">
-                                            <img class="card-img-top" src="img/img-avatar.png" alt="Card image" style="width:100%">
-                                            <div class="card-body">
-                                                <!-- <img class="rounded mx-auto d-block" src="https://cootix.github.io/store/custom/images/cootix_150x150.png" alt="Profile" width="170px"><br> -->
-                                                <p class="text-justify">Some example text some example text.
+                                            <img class="card-img-top2" src="img/karya/modal-img-03/cootix-store-pulsa.png" alt="Card image" style="width:100%">
+                                            <div class="card-body d-flex flex-column">
+                                                <p class="text-justify">Web Cootix Store untuk menjual Pulsa dan Top Up Game
                                                 </p>
-                                                <a href="#" class="btn btn-primary badge-pill float-right"><i class="fa fa-list-alt"></i> Detail</a>
+                                                <a href="#" data-toggle="modal" data-target="#modal-03" class="btn btn-sm btn-ungu badge-pill float-right align-self-end" style="margin-top: auto;">Detail <i class="fa fa-chevron-circle-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--  modal-03 -->
+                                    <div class="modal fade" id="modal-03">
+                                        <div class="modal-dialog modal-dialog-scrollable modal-full">
+                                            <div class="modal-content">
+
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                <button type="button" class="btn" data-dismiss-modal="modal2"><i class="fa fa-chevron-circle-left text-black-50 float-right fa-2x"></i></button>
+                                                <!-- <h4 class="modal-title"></h4> -->
+                                                </div>
+                                        
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        <div class="col-md-6 mb-3">
+                                                            <img class="rounded-lvl" src="img/karya/modal-img-01/sparkar.png" style="width:100%">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cumque impedit ea voluptas inventore unde vitae voluptatibus. Consequatur eius totam sint! Cumque similique harum asperiores illo quaerat delectus voluptas deserunt.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- thumb modal04 -->
+                                    <div class="col-md mb-4 d-flex align-items-stretch">
+                                        <div class="card card-skill card-shadow">
+                                            <img class="card-img-top2" src="img/karya/modal-img-02/cootix-store-efek.png" alt="Card image" style="width:100%">
+                                            <div class="card-body d-flex flex-column">
+                                                <p class="text-justify">Web Cootix Store untuk menjual Efek Filter Instagram
+                                                </p>
+                                                <a href="#" data-toggle="modal" data-target="#modal-04" class="btn btn-sm btn-ungu badge-pill float-right align-self-end" style="margin-top: auto;">Detail <i class="fa fa-chevron-circle-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--  modal-04 -->
+                                    <div class="modal fade" id="modal-04">
+                                        <div class="modal-dialog modal-dialog-scrollable modal-full">
+                                            <div class="modal-content">
+
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                <button type="button" class="btn" data-dismiss-modal="modal2"><i class="fa fa-chevron-circle-left text-black-50 float-right fa-2x"></i></button>
+                                                <!-- <h4 class="modal-title"></h4> -->
+                                                </div>
+                                        
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        <div class="col-md-6 mb-3">
+                                                            <img class="rounded-lvl" src="img/karya/modal-img-01/sparkar.png" style="width:100%">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cumque impedit ea voluptas inventore unde vitae voluptatibus. Consequatur eius totam sint! Cumque similique harum asperiores illo quaerat delectus voluptas deserunt.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="col-md-6">
                                 <div class="row">
-                                    <div class="col mb-4">
-                                        <div class="card card-skill card-shadow">
-                                            <img class="card-img-top" src="img/img-avatar.png" alt="Card image" style="width:100%">
-                                            <div class="card-body">
-                                                <!-- <img class="rounded mx-auto d-block" src="https://cootix.github.io/store/custom/images/cootix_150x150.png" alt="Profile" width="170px"><br> -->
-                                                <p class="text-justify">Some example text some example text.
-                                                </p>
-                                                <a href="#" class="btn btn-primary badge-pill float-right"><i class="fa fa-list-alt"></i> Detail</a>
+                                    <div class="col">
+                                        <a href="#" data-toggle="modal" data-target="#lihatlebih" class="btn btn-sm btn-ungu mb-4 badge-pill float-right">Lihat Lebih Banyak <i class="fa fa-chevron-circle-right"></i></a>
+
+                                        <!-- modal lihat lebih banyak-->
+                                        <div class="modal fade" id="lihatlebih">
+                                            <div class="modal-dialog modal-dialog-scrollable modal-full">
+                                                <div class="modal-content">
+                                            
+                                                    <!-- Modal Header -->
+                                                    <div class="modal-header">
+                                                    <!-- <h4 class="modal-title w-100 text-center">Karya</h4> -->
+                                                    <h4 class="modal-title"></h4>
+                                                    <button type="button" class="btn" data-dismiss="modal"><i class="fa fa-times-circle fa-danger float-right fa-2x"></i></button>
+                                                    </div>
+                                            
+                                                    <!-- Modal body -->
+                                                    <div class="modal-body">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+
+                                                                <!-- thumb modal-lvl-01 -->
+                                                                <div class="col-md mb-4 d-flex align-items-stretch">
+                                                                    <div class="card card-skill card-shadow">
+                                                                        <input type="image" class="card-img-top2" src="img/karya/modal-img-01/sparkar.png" style="width:100%" data-toggle="modal" data-target="#modal-lvl-01">
+                                                                        <div class="card-body d-flex flex-column">
+                                                                            <p>Efek & Filter Instagram menggunakan Spark AR Studio
+                                                                            </p>
+                                                                            <a href="#" data-toggle="modal" data-target="#modal-lvl-01" class="btn btn-sm btn-ungu badge-pill float-right align-self-end" style="margin-top: auto;">Detail <i class="fa fa-chevron-circle-right"></i></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!--  modal-lvl-01 -->
+                                                                <div class="modal fade" id="modal-lvl-01">
+                                                                    <div class="modal-dialog modal-dialog-scrollable modal-full">
+                                                                        <div class="modal-content">
+
+                                                                            <!-- Modal Header -->
+                                                                            <div class="modal-header">
+                                                                            <button type="button" class="btn" data-dismiss-modal="modal2"><i class="fa fa-chevron-circle-left text-black-50 float-right fa-2x"></i></button>
+                                                                            </div>
+                                                                    
+                                                                            <!-- Modal body -->
+                                                                            <div class="modal-body">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 mb-3">
+                                                                                        <img class="rounded-lvl" src="img/karya/modal-img-01/sparkar.png" style="width:100%">
+                                                                                    </div>
+                                                                                    <div class="col-md-6">
+                                                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cumque impedit ea voluptas inventore unde vitae voluptatibus. Consequatur eius totam sint! Cumque similique harum asperiores illo quaerat delectus voluptas deserunt.</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- thumb modal-lvl-02 -->
+                                                                <div class="col-md mb-4 d-flex align-items-stretch">
+                                                                    <div class="card card-skill card-shadow">
+                                                                        <input type="image" class="card-img-top2" src="img/karya/modal-img-01/sparkar.png" style="width:100%" data-toggle="modal" data-target="#modal-lvl-02">
+                                                                        <div class="card-body d-flex flex-column">
+                                                                            <p>Efek & Filter Instagram menggunakan Spark AR Studio
+                                                                            </p>
+                                                                            <a href="#" data-toggle="modal" data-target="#modal-lvl-02" class="btn btn-sm btn-ungu badge-pill float-right align-self-end" style="margin-top: auto;">Detail <i class="fa fa-chevron-circle-right"></i></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!--  modal-lvl-02 -->
+                                                                <div class="modal fade" id="modal-lvl-02">
+                                                                    <div class="modal-dialog modal-dialog-scrollable modal-full">
+                                                                        <div class="modal-content">
+
+                                                                            <!-- Modal Header -->
+                                                                            <div class="modal-header">
+                                                                            <button type="button" class="btn" data-dismiss-modal="modal2"><i class="fa fa-chevron-circle-left text-black-50 float-right fa-2x"></i></button>
+                                                                            </div>
+                                                                    
+                                                                            <!-- Modal body -->
+                                                                            <div class="modal-body">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 mb-3">
+                                                                                        <img class="rounded-lvl" src="img/karya/modal-img-01/sparkar.png" style="width:100%">
+                                                                                    </div>
+                                                                                    <div class="col-md-6">
+                                                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cumque impedit ea voluptas inventore unde vitae voluptatibus. Consequatur eius totam sint! Cumque similique harum asperiores illo quaerat delectus voluptas deserunt.</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- thumb modal-lvl-03 -->
+                                                                <div class="col-md mb-4 d-flex align-items-stretch">
+                                                                    <div class="card card-skill card-shadow">
+                                                                        <input type="image" class="card-img-top2" src="img/karya/modal-img-01/sparkar.png" style="width:100%" data-toggle="modal" data-target="#modal-lvl-03">
+                                                                        <div class="card-body d-flex flex-column">
+                                                                            <p>Efek & Filter Instagram menggunakan Spark AR Studio
+                                                                            </p>
+                                                                            <a href="#" data-toggle="modal" data-target="#modal-lvl-03" class="btn btn-sm btn-ungu badge-pill float-right align-self-end" style="margin-top: auto;">Detail <i class="fa fa-chevron-circle-right"></i></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!--  modal-lvl-03 -->
+                                                                <div class="modal fade" id="modal-lvl-03">
+                                                                    <div class="modal-dialog modal-dialog-scrollable modal-full">
+                                                                        <div class="modal-content">
+
+                                                                            <!-- Modal Header -->
+                                                                            <div class="modal-header">
+                                                                            <button type="button" class="btn" data-dismiss-modal="modal2"><i class="fa fa-chevron-circle-left text-black-50 float-right fa-2x"></i></button>
+                                                                            </div>
+                                                                    
+                                                                            <!-- Modal body -->
+                                                                            <div class="modal-body">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 mb-3">
+                                                                                        <img class="rounded-lvl" src="img/karya/modal-img-01/sparkar.png" style="width:100%">
+                                                                                    </div>
+                                                                                    <div class="col-md-6">
+                                                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cumque impedit ea voluptas inventore unde vitae voluptatibus. Consequatur eius totam sint! Cumque similique harum asperiores illo quaerat delectus voluptas deserunt.</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- thumb modal-lvl-04 -->
+                                                                <div class="col-md mb-4 d-flex align-items-stretch">
+                                                                    <div class="card card-skill card-shadow">
+                                                                        <input type="image" class="card-img-top2" src="img/karya/modal-img-01/sparkar.png" style="width:100%" data-toggle="modal" data-target="#modal-lvl-04">
+                                                                        <div class="card-body d-flex flex-column">
+                                                                            <p>Efek & Filter Instagram menggunakan Spark AR Studio
+                                                                            </p>
+                                                                            <a href="#" data-toggle="modal" data-target="#modal-lvl-04" class="btn btn-sm btn-ungu badge-pill float-right align-self-end" style="margin-top: auto;">Detail <i class="fa fa-chevron-circle-right"></i></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!--  modal-lvl-04 -->
+                                                                <div class="modal fade" id="modal-lvl-04">
+                                                                    <div class="modal-dialog modal-dialog-scrollable modal-full">
+                                                                        <div class="modal-content">
+
+                                                                            <!-- Modal Header -->
+                                                                            <div class="modal-header">
+                                                                            <button type="button" class="btn" data-dismiss-modal="modal2"><i class="fa fa-chevron-circle-left text-black-50 float-right fa-2x"></i></button>
+                                                                            </div>
+                                                                    
+                                                                            <!-- Modal body -->
+                                                                            <div class="modal-body">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6 mb-3">
+                                                                                        <img class="rounded-lvl" src="img/karya/modal-img-01/sparkar.png" style="width:100%">
+                                                                                    </div>
+                                                                                    <div class="col-md-6">
+                                                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cumque impedit ea voluptas inventore unde vitae voluptatibus. Consequatur eius totam sint! Cumque similique harum asperiores illo quaerat delectus voluptas deserunt.</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col mb-4">
-                                        <div class="card card-skill card-shadow">
-                                            <img class="card-img-top" src="img/img-avatar.png" alt="Card image" style="width:100%">
-                                            <div class="card-body">
-                                                <!-- <img class="rounded mx-auto d-block" src="https://cootix.github.io/store/custom/images/cootix_150x150.png" alt="Profile" width="170px"><br> -->
-                                                <p class="text-justify">Some example text some example text.
-                                                </p>
-                                                <a href="#" class="btn btn-primary badge-pill float-right"><i class="fa fa-list-alt"></i> Detail</a>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="col mb-4">
-                                        <div class="card card-skill card-shadow">
-                                            <img class="card-img-top" src="img/img-avatar.png" alt="Card image" style="width:100%">
-                                            <div class="card-body">
-                                                <!-- <img class="rounded mx-auto d-block" src="https://cootix.github.io/store/custom/images/cootix_150x150.png" alt="Profile" width="170px"><br> -->
-                                                <p class="text-justify">Some example text some example text.
-                                                </p>
-                                                <a href="#" class="btn btn-primary badge-pill float-right"><i class="fa fa-list-alt"></i> Detail</a>
-                                            </div>
+                    </div><hr>
+
+                    <!-- Kontak -->
+                    <div class="row">
+                        <div class="col text-center">
+                            <h2><span class="badge badge-pill badge-ungu text-white">Kontak</span></h2>
+                        </div>
+                    </div><br>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="row justify-content-around">
+                                <div class="col-md-6 mb-4">
+                                    <div class="card card-kontak card-shadow badge-pill">
+                                        <div class="card-body text-center">
+                                            <span class="material-icons" style="font-size: 50px; color: #7d2ae8;">email</span>
+                                            <p>rifqianshari22@gmail.com</p>
+                                            <a href="mailto:rifqianshari22@gmail.com" class="mt-2" target="_blank">Kirimi saya pesan</a>
                                         </div>
                                     </div>
-                                    <div class="col mb-4">
-                                        <div class="card card-skill card-shadow">
-                                            <img class="card-img-top" src="img/img-avatar.png" alt="Card image" style="width:100%">
-                                            <div class="card-body">
-                                                <!-- <img class="rounded mx-auto d-block" src="https://cootix.github.io/store/custom/images/cootix_150x150.png" alt="Profile" width="170px"><br> -->
-                                                <p class="text-justify">Some example text some example text.
-                                                </p>
-                                                <a href="#" class="btn btn-primary badge-pill float-right"><i class="fa fa-list-alt"></i> Detail</a>
-                                            </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-around">
+                                <div class="col-md-6 mb-4">
+                                    <div class="card card-kontak card-shadow badge-pill">
+                                        <div class="card-body text-center">
+                                            <span class="material-icons" style="font-size: 50px; color: #7d2ae8;">whatsapp</span>
+                                            <p>082153543005</p>
+                                            <a href="https://api.whatsapp.com/send?phone=6282153543005" class="mt-2" target="_blank">Kirimi saya pesan</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="col mb-4">
-                                        <div class="card card-skill card-shadow">
-                                            <img class="card-img-top" src="img/img-avatar.png" alt="Card image" style="width:100%">
-                                            <div class="card-body">
-                                                <!-- <img class="rounded mx-auto d-block" src="https://cootix.github.io/store/custom/images/cootix_150x150.png" alt="Profile" width="170px"><br> -->
-                                                <p class="text-justify">Some example text some example text.
-                                                </p>
-                                                <a href="#" class="btn btn-primary badge-pill float-right"><i class="fa fa-list-alt"></i> Detail</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col mb-4">
-                                        <div class="card card-skill card-shadow">
-                                            <img class="card-img-top" src="img/img-avatar.png" alt="Card image" style="width:100%">
-                                            <div class="card-body">
-                                                <!-- <img class="rounded mx-auto d-block" src="https://cootix.github.io/store/custom/images/cootix_150x150.png" alt="Profile" width="170px"><br> -->
-                                                <p class="text-justify">Some example text some example text.
-                                                </p>
-                                                <a href="#" class="btn btn-primary badge-pill float-right"><i class="fa fa-list-alt"></i> Detail</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="col-md-6 text-center mb-3">
+                            <img src="img/contact.png" alt="Education" width="70%">
                         </div>
                     </div>
+                    
+                    <footer class="fixed-bot text-center text-black footer-radius">
+                        <span>&copy; 2022 - RIFQI ANSHARI</span>
+                    </footer>
+                </div>
+                <!-- Footer -->
+
             </div>
         </div>
+
     </div>
     
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modal.js"></script>
 
-    
+
 </body>
 </html>
