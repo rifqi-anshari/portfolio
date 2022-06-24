@@ -53,9 +53,17 @@ h2 *{
 
 /* Card Tentang Saya */
 .card-about{
-    background-color: #7d2ae8;
+    /* background-color: #ffffff; */
+    /* background-color: #7d2ae8; */
     border-radius: 15px;
-    border: none !important;
+    /* border-color: #b8a7cf; */
+    /* border-width: 4px; */
+    /* border: none !important; */
+}
+
+.card-name{
+    border-width: 7px !important;
+    border-color: #7d2ae8 !important;
 }
 
 .card-biografi{
@@ -67,6 +75,20 @@ h2 *{
 /* Efek Shadow Pada Card */
 .card-shadow{
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/* Efek Shadow Pada Profil */
+.card-shadow-profil{
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/* Background konten */
+.bg-konten{
+    background-color: #dcd7e2;
+}
+
+.bg-caption{
+    background-color: #dbdbdb;
 }
 
 /* Badge Warna Ungu */
@@ -113,6 +135,32 @@ h2 *{
     border-color:#005cbf}
 .btn-ungu:not(:disabled):not(.disabled).active:focus,.btn-ungu:not(:disabled):not(.disabled):active:focus,.show>.btn-ungu.dropdown-toggle:focus{
     box-shadow:0 0 0 .2rem #8b47e485}
+
+
+/* Button Pink */
+.btn-pink{
+    color:#fff;
+    background-color:#e82aa9;
+    border-color:#e82aa9}
+.btn-pink:hover{
+    color:#fff;
+    background-color:#ce2696;
+    border-color:#c5248f}
+.btn-pink.focus,.btn-pink:focus{
+    color:#fff;
+    background-color:#ce2696;
+    border-color:#c5248f;
+    box-shadow:0 0 0 .2rem #e447bd85}
+.btn-pink.disabled,.btn-pink:disabled{
+    color:#fff;
+    background-color:#e82aa9;
+    border-color:#e82aa9}
+.btn-pink:not(:disabled):not(.disabled).active,.btn-pink:not(:disabled):not(.disabled):active,.show>.btn-pink.dropdown-toggle{
+    color:#fff;
+    background-color:#c5248f;
+    border-color:#005cbf}
+.btn-pink:not(:disabled):not(.disabled).active:focus,.btn-pink:not(:disabled):not(.disabled):active:focus,.show>.btn-pink.dropdown-toggle:focus{
+    box-shadow:0 0 0 .2rem #e447bd85}
 
 /* Untuk letak Margin Pada Carousel Biar Kada Tehambur */
 .margin-bot-10px{
@@ -239,5 +287,8 @@ h2 *{
 .footer-radius{
     border-radius: 125px;
     background-color: #f0f0f0;
+}
 
+.font-kecil{
+    font-size: x-small;
 }
