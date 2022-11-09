@@ -213,7 +213,17 @@ h2 *{
 
 /* Warna Icon Panah */
 .icon-panah{
-    color:#7d2ae8;
+    color:#000000;
+}
+
+.mt-konten{
+    margin-top: 50px;
+}
+
+/* margin carousel */
+.margin-tengah-konten{
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 /* Margin Kanan Kiri Oke */
